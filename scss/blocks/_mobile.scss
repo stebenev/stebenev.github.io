@@ -1,0 +1,44 @@
+.mobile {
+    background-color: #fbfaf8;
+    padding: 80px 0 0 0;
+    &__wrapper {
+        display: flex;
+        &-text {
+            margin: 100px 0 0 20px;
+        }
+    }
+    &__title {
+        font-family: Raleway;
+        font-size: 30px;
+        font-weight: 600;
+        color: #555555;
+        margin: 0 0 30px 0;
+    }
+    &__subtitle {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.5;
+        color: #8c8c8c;
+        margin: 0 0 30px 0;
+    }
+    &__list {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 2;
+        color: #8c8c8c;
+        padding-left: 60px;
+        li {
+            &:before {
+                content: '';
+                display: inline-block;
+                vertical-align: middle;
+                transform: translate(-28px, -2px);
+                width: 21px;
+                height: 21px;
+                background: url(../icons/arrow.svg) center (center / cover) no-repeat;
+            }
+        }
+    }
+}

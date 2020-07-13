@@ -1,0 +1,99 @@
+.header {
+    background: url(../../img/main_bg.jpg) center (center/cover) no-repeat;
+    min-height: 800px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 40px;
+    }
+    &__logo {
+        display: flex;
+        align-items: center;
+        &__descr {
+            font-family: Raleway;
+            font-size: 34px;
+            font-weight: 400;
+            color: #ffffff;
+        }
+    }
+    &__icon img {
+        margin: 0 0 0 28px;
+        cursor: pointer;
+    }
+    &__text__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    &__text {
+        margin: 150px 0 0 0;
+    }
+    &__title {
+        font-family: Raleway;
+        font-size: 52px;
+        font-weight: 800;
+        color: #ffffff;
+    }
+    &__subtitle {
+        font-family: Raleway;
+        font-size: 36px;
+        font-weight: 500;
+        color: #ffffff;
+    }
+    &__descr {
+        font-family: Montserrat;
+        margin: 0 auto;
+        max-width: 560px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.5;
+        color: #ffffff;
+        padding: 0 0 50px 0;
+    }
+    &__button {
+        width: 170px;
+        height: 53px;
+        border-radius: 3px;
+        box-shadow: inset 0px -3px 0 0 #736357;
+        background-color: #998675;
+        border: none;
+        outline: none !important;
+        margin: 0 0 100px 0;
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 800;
+        line-height: 1;
+        color: #ffffff;
+        &:hover {
+            background-color: #c2a891;
+        }
+    }
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.menu a {
+    margin: 0 10px;
+}
+
+.menu {
+    display: flex;
+    &-item {
+        margin: 0 20px 0 0;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 300;
+        color: #ffffff;
+        &:last-child {
+            margin: 0 0 0 0;
+        }
+        &:hover {
+            color: #c7b299;
+        }
+    }
+}

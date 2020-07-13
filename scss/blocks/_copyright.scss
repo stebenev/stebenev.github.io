@@ -1,0 +1,36 @@
+.copyright {
+    min-height: 111px;
+    background-color: #111111;
+    padding: 45px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    &__menu {
+        display: flex;
+        li:hover {
+            color: #c7b299;
+        }
+    }
+    &__item {
+        display: flex;
+        padding-right: 20px;
+        margin: 0 10px;
+        border-right: 1px solid #555555;
+        height: 14px;
+        align-items: center;
+        cursor: pointer;
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 1.5;
+        color: #555555;
+        &:last-child {
+            border-right: none;
+        }
+        span {
+            color: #959595;
+            margin: 0 0 0 10px;
+        }
+    }
+}

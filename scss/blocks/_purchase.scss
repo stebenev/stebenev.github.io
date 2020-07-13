@@ -1,0 +1,30 @@
+.purchase {
+    min-height: 150px;
+    background-image: linear-gradient(to top, #211b19, #4e3427);
+}
+
+.purchase__wrapper {
+    display: flex;
+    align-items: center;
+    padding: 50px 30px;
+}
+
+.purchase__title {
+    font-family: Raleway;
+    font-size: 28px;
+    color: #ffffff;
+    span {
+        color: #c7b299;
+    }
+}
+
+.purchase__subtitle {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+    color: #615855;
+}
+
+.purchase__btn {
+    margin-left: auto;
+}

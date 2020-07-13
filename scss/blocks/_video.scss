@@ -1,0 +1,43 @@
+.video {
+    background: url(../../img/video_bg.jpg) center (center / cover) no-repeat;
+    min-height: 700px;
+    padding: 200px 0;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    &__icon {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        cursor: pointer;
+        img:hover {
+            transform: scale(1.1);
+            transition: 1s;
+        }
+    }
+    &__title {
+        font-family: Raleway;
+        font-size: 30px;
+        font-weight: 500;
+        color: #ffffff;
+        margin: 44px 0 29px 0;
+    }
+    &__subtitle {
+        max-width: 550px;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.75;
+        color: #ffffff;
+        margin: 0 auto;
+    }
+    &__timer {
+        font-family: Montserrat;
+        font-size: 14px;
+        line-height: 1.71;
+        color: #c7b299;
+        margin: 40px 0 0 0;
+    }
+}
